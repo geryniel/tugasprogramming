@@ -1,4 +1,4 @@
-const txtElement = ['Mahasiswa', 'Freelancer'];
+const txtElement = ['Mahasiswa', 'Freelancer', 'sd','abd'];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
@@ -15,5 +15,5 @@ if (words.length==currentTxt.length){
     count++;
     txtIndex=0;
 }
-setTimeout(teks, 300);
+setTimeout(teks, 500);
 })();
